@@ -1,0 +1,8 @@
+ff7c3fa52ddc
+
+
+docker run -it -p 3000:3000 -v /home/node/app/app/node_modules -v "C:/Users/lfakroodeen/Desktop/Luqman/Dockers/New folder/frontend:/home/node/app" d5f97895c8ca
+
+
+docker build -f Dockerfile.dev -t lfakroodeen:frontend .
+docker run -it -p 3000:3000 -v /app/node_modules -v ${PWD}:/app lfakroodeen:frontend
