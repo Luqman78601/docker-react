@@ -8,4 +8,4 @@ services:
     -  docker build -t lfakroodeen/docker-react -f Dockerfile.dev .
 
   script:
-    - docker run -e CI=true lfakroodeen/docker-react npm run test
+    - docker run -e CI=true Luqman78601/docker-react npm run test
